@@ -1,0 +1,20 @@
+# Deny everything except reviewed public files.
+*
+!/.gitignore
+!/README.md
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/pages.yml
+!/site/
+/site/*
+!/site/index.html
+!/site/style.css
+!/site/content.js
+!/site/hub.js
+!/site/tutoring.js
+!/site/.nojekyll
+!/site/assets/
+/site/assets/*
+!/site/assets/pearl-headshot-web.jpg
